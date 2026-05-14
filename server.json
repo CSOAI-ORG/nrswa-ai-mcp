@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/nrswa-ai-mcp",
+  "version": "1.0.0",
+  "description": "UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accr...",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/nrswa-ai-mcp",
+    "source": "https://github.com/CSOAI-ORG/nrswa-ai-mcp"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "nrswa-ai-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
