@@ -1,37 +1,78 @@
-# NRSWA (New Roads & Street Works Act) MCP
+# Nrswa Ai MCP
 
-[![PyPI](https://img.shields.io/pypi/v/nrswa-ai-mcp)](https://pypi.org/project/nrswa-ai-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-trade--vertical-purple)](https://meok.ai)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/nrswa_ai_mcp/)
 
-UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accreditation tracking.
+> UK New Roads + Street Works Act compliance MCP
 
-## Install
+UK New Roads + Street Works Act compliance MCP. Section 50/58/74 + utility works. MIT
+
+---
+
+## 🚀 Quick Start
 
 ```bash
-pip install nrswa-ai-mcp
+# Install via pip
+pip install nrswa_ai_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install nrswa-ai-mcp --client claude
 ```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|------|---------|
-| `check_s50_licence` | Section 50 street works licence application requirements |
-| `classify_works` | Major / Minor / Standard / Immediate works classification |
-| `calculate_s74_overrun` | Section 74 overrun penalty calculator |
-| `nrswa_accreditation_check` | Operative + supervisor accreditation status |
-| `noticing_timeline` | Statutory noticing periods and deadlines |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Pricing
+## 📖 Documentation
 
-- **Free**: 10 calls/day
-- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836)
-- **Enterprise** £1,499/mo: white-label + on-premise. hello@meok.ai
+- [Full Documentation](https://docs.meok.ai/nrswa-ai-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-Pairs with `meok-attestation-api` for cryptographically signed compliance certificates.
+## 🛡️ Compliance
 
-## License
+This MCP server is built with **EU AI Act compliance** built-in:
 
-MIT © MEOK AI Labs
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-<!-- mcp-name: io.github.CSOAI-ORG/nrswa-ai-mcp -->
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
+
+## 🏢 Enterprise
+
+Need custom development, SLA guarantees, or white-label deployment?
+
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
+
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
+
+## 🤝 Part of the MEOK Ecosystem
+
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
