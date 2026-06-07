@@ -1,0 +1,28 @@
+name: nrswa-ai-mcp
+description: 'MCP server: nrswa-ai-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/nrswa-ai-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_s50_licence
+  description: Section 50 street works licence application requirements
+- name: classify_works
+  description: Major / Minor / Standard / Immediate works classification
+- name: calculate_s74_overrun
+  description: Section 74 overrun penalty calculator
+- name: nrswa_accreditation_check
+  description: Operative + supervisor accreditation status
+- name: noticing_timeline
+  description: Statutory noticing periods and deadlines
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

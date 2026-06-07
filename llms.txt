@@ -1,0 +1,21 @@
+# nrswa-ai-mcp
+
+> UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accreditation tracking.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_s50_licence
+- classify_works
+- calculate_s74_overrun
+- nrswa_accreditation_check
+- noticing_timeline
+
+## Install
+```
+pip install nrswa-ai-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/nrswa-ai-mcp/
+- Docs: https://meok.ai
