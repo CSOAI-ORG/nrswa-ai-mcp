@@ -1,0 +1,68 @@
+{
+  "name": "nrswa-ai-mcp",
+  "description": "UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accr...",
+  "url": "https://proofof.ai/scorecard/nrswa-ai-mcp.html",
+  "version": "1.0.5",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_s50_licence",
+      "name": "Check S50 Licence",
+      "description": "check_s50_licence via nrswa-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "classify_works",
+      "name": "Classify Works",
+      "description": "classify_works via nrswa-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_s74_overrun",
+      "name": "Calculate S74 Overrun",
+      "description": "calculate_s74_overrun via nrswa-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "nrswa_accreditation_check",
+      "name": "Nrswa Accreditation Check",
+      "description": "nrswa_accreditation_check via nrswa-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "noticing_timeline",
+      "name": "Noticing Timeline",
+      "description": "noticing_timeline via nrswa-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "nrswa-ai-mcp",
+    "description": "UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accr...",
+    "version": "1.0.5",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "nrswa-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_s50_licence",
+      "classify_works",
+      "calculate_s74_overrun",
+      "nrswa_accreditation_check",
+      "noticing_timeline"
+    ]
+  }
+}
