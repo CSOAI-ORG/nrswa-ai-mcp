@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "nrswa-ai-mcp"
 readme = "README.md"
-version = "1.0.5"
+version = "1.0.6"
 description = "UK street works compliance. Section 50 licences, S58 deferral, S74 overrun penalties, NRSWA accreditation tracking."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
