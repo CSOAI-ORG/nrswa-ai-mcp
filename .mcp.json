@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nrswa-ai-mcp": {
+      "command": "uvx",
+      "args": [
+        "nrswa-ai-mcp"
+      ]
+    }
+  }
+}
